@@ -1,2 +1,2 @@
 FROM chef/chefdk
-RUN echo "echo \"This image has been deprecated in favor of https://hub.docker.com/r/chef/chefdk.\"" >> /root/.bashrc
+ADD dokken.rb /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-1.0.4/lib/kitchen/transport/dokken.rb
