@@ -1,2 +1,1 @@
-Simple container to include chefdk so you can isolate your chef workstation work into a nice lil docker
-
+This image has been deprecated in favor of [chef/chefdk](https://hub.docker.com/r/chef/chefdk).
